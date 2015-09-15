@@ -1,0 +1,31 @@
+{
+  "name": "generator-kjss",
+  "description": "JavaScript Module Skeleton yeoman-generator",
+  "main": "app/index.js",
+  "homepage": "https://github.com/schmeiserd/kjss",
+  "bugs": "https://github.com/schmeiserd/kjss/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schmeiserd/kjss.git"
+  },
+  "author": {
+    "name": "Dominik Schmeiser",
+    "url": "https://github.com/schmeiserd"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.20.2",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+  }
+}
